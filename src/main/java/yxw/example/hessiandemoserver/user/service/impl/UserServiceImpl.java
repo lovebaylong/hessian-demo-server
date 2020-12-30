@@ -28,6 +28,7 @@ public class UserServiceImpl implements UserService {
     public List<User> findAll() {
         List<User> userList = new ArrayList<>();
         userList.add(findById(1L));
+        userList.add(findById(2L));
         return userList;
     }
 }
